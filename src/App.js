@@ -1,11 +1,10 @@
-import ProfileCard from "./components/ProfileCard";
-import SocialButtons from "./components/SocialButtons";
+import React from 'react';
+import TodoApp from "../src/components/TodoApp";
 
 export default function App() {
   return (
     <div>
-      <ProfileCard />
-      <SocialButtons />
+      <TodoApp />
     </div>
   );
 }
